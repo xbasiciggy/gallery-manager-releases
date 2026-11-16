@@ -3,17 +3,16 @@
   <channel>
     <title>Gallery Manager</title>
     <item>
-      <title>Version 1.3.94</title>
-      <pubDate>Mon, 16 Nov 2026 20:58:20 +0000</pubDate>
-      <sparkle:version>174</sparkle:version>
-      <sparkle:shortVersionString>1.3.94</sparkle:shortVersionString>
+      <title>Version 1.3.95</title>
+      <pubDate>Mon, 16 Nov 2026 21:08:46 +0000</pubDate>
+      <sparkle:version>175</sparkle:version>
+      <sparkle:shortVersionString>1.3.95</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<pre style="font-family:-apple-system;white-space:pre-wrap">
-- Publish now checks GitHub up front: if GitHub has newer commits than this Mac (from another computer or session) the inspection shows a blocking item in plain English, naming the folders that changed and the latest change, with a one-click "Sync now" button. Previously publishing did all its work and only failed at the final push.
-- Sync is a normal merge that backs out cleanly (nothing left half-merged) if local edits are in the way, and explains what to do.
-- New warning when Settings still points at a *.pages.dev address, since canonical links, the sitemap and link previews would use it instead of your real domain.
-- An offline or slow network never blocks publishing: the GitHub check is skipped quietly.</pre>]]></description>
-      <enclosure url="https://github.com/xbasiciggy/gallery-manager-releases/releases/download/v1.3.94/GalleryManager-1.3.94.zip" type="application/octet-stream" sparkle:edSignature="R31wjFZB6Q/IgbFRhe5CmNIxAgCAnXwfDQNTGg/KVvx1ndfEZ1Z/eJIvYVLIIy70n8XlULD0+st0v8mIgSRpCw==" length="16988932"/>
+- Fixed the Homepage tab not updating the site. Its Hero, Featured Adventure and Featured Lifestyle slots were saved to gallery-data/homepage.json, but nothing applied them to the home page, which is static HTML, so the hero stayed the old image. Save to Website / Publish now writes the slots into index.html: the hero image, and the Adventures and Lifestyle cards (image, name and badge).
+- Uses right-sized self-hosted copies of each gallery's cover photo (2200px for the hero, 1200px for cards) under /assets/media, resolved from the gallery's own exported cover. Safe to run repeatedly.
+- A hero chosen with Hero Images → Choose Image… is an explicit upload and still takes priority over the hero slot.</pre>]]></description>
+      <enclosure url="https://github.com/xbasiciggy/gallery-manager-releases/releases/download/v1.3.95/GalleryManager-1.3.95.zip" type="application/octet-stream" sparkle:edSignature="ptOUaKk6JwxIWfei0c2D4mPQCPK+9ZOPpdHRwje0qNtExzQ8GatyB6ot+WVADBi/3jiQ6bKIoMgNf7OBKTxCDA==" length="16994845"/>
     </item>
   </channel>
 </rss>
