@@ -3,15 +3,16 @@
   <channel>
     <title>Gallery Manager</title>
     <item>
-      <title>Version 1.3.92</title>
-      <pubDate>Mon, 16 Nov 2026 19:38:46 +0000</pubDate>
-      <sparkle:version>172</sparkle:version>
-      <sparkle:shortVersionString>1.3.92</sparkle:shortVersionString>
+      <title>Version 1.3.93</title>
+      <pubDate>Mon, 16 Nov 2026 19:58:54 +0000</pubDate>
+      <sparkle:version>173</sparkle:version>
+      <sparkle:shortVersionString>1.3.93</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<pre style="font-family:-apple-system;white-space:pre-wrap">
-- New neon-glass design system: frosted-glass keys with a bright top edge and soft shadow, dark inset wells they sit in, and a lit-tube neon rim (colored glow, tight bloom, hot white core) that pools around the bottom-left corner.
-- Applied across the app in the photo-driven accent color: the selected sidebar item, home action tiles (Publish is a bright glowing key), status chips, gallery cards (rim brightens and rotates on hover), the Publish Site / Save buttons and the ⌘K palette.</pre>]]></description>
-      <enclosure url="https://github.com/xbasiciggy/gallery-manager-releases/releases/download/v1.3.92/GalleryManager-1.3.92.zip" type="application/octet-stream" sparkle:edSignature="qCpK/iOINv6oOn2WcOE5Lwn0a2Tq1sIg4gysUSrZiiWrf1Os6CwknBREhSbvBNo2guq3KRa3p1qa1SfH5KdmAQ==" length="16959904"/>
+- GlassCard panels, glass buttons, glow (primary) buttons and the sidebar panel now use the neon-glass look: frosted body with a bright top edge, deeper shadow and a rim of light in the photo accent color. Every screen (Galleries, Publish, Settings, Web Import, Resize, Updates, Extras, Site Organizer) picks it up from the shared components.
+- Decorative green icons and progress tints now follow the photo accent; success states and status chips keep their green.
+- The accent is provided app-wide through the SwiftUI environment (neonAccent) and .tint.</pre>]]></description>
+      <enclosure url="https://github.com/xbasiciggy/gallery-manager-releases/releases/download/v1.3.93/GalleryManager-1.3.93.zip" type="application/octet-stream" sparkle:edSignature="2dh/9S0cZpNiCU+kcAXpdggHzM74BkA+XFSsY8IqZx4Fz20hlkEn25NlHTJkt57BtYNUIizX6KUbz4fCMsbkDg==" length="16971082"/>
     </item>
   </channel>
 </rss>
