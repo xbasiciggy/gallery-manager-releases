@@ -3,16 +3,16 @@
   <channel>
     <title>Gallery Manager</title>
     <item>
-      <title>Version 1.3.88</title>
-      <pubDate>Mon, 16 Nov 2026 18:59:56 +0000</pubDate>
-      <sparkle:version>168</sparkle:version>
-      <sparkle:shortVersionString>1.3.88</sparkle:shortVersionString>
+      <title>Version 1.3.89</title>
+      <pubDate>Mon, 16 Nov 2026 19:16:01 +0000</pubDate>
+      <sparkle:version>169</sparkle:version>
+      <sparkle:shortVersionString>1.3.89</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<pre style="font-family:-apple-system;white-space:pre-wrap">
-- Gallery Manager now installs as a normal app in /Applications and updates itself with Sparkle: it checks the release feed in the background, downloads signed updates and installs them on relaunch. App menu → Check for Updates… checks immediately.
-- Updates are verified with an EdDSA signature, so only builds signed with your key are accepted.
-- New Scripts/release-app.sh builds, signs, uploads to github.com/xbasiciggy/gallery-manager-releases and updates the feed in one command.</pre>]]></description>
-      <enclosure url="https://github.com/xbasiciggy/gallery-manager-releases/releases/download/v1.3.88/GalleryManager-1.3.88.zip" type="application/octet-stream" sparkle:edSignature="drsuvg0AKjb6v2Q7n+bqMF8h38xU0eeb4HOrDFp0oMfv93v+lzHfgrWvbNMAZAk0EDSY9XYrw4EKP1nNY2nfBA==" length="16864754"/>
+- Redesigned the home screen: the whole app tints itself from your newest cover photo, a flowing topographic-line background echoes the website, and the header has a bold display title with live-site, gallery and draft chips.
+- Publish is now a bright accent tile; the other actions sit in one row of quieter glass tiles.
+- Gallery cards are photo-first: the cover fills the card with a bold title over it, status chips, and a hover zoom with a glow in that photo's own color.</pre>]]></description>
+      <enclosure url="https://github.com/xbasiciggy/gallery-manager-releases/releases/download/v1.3.89/GalleryManager-1.3.89.zip" type="application/octet-stream" sparkle:edSignature="uEA2BGO9ct91srFyxzYut3GMcXRBI4WaWEYQW3Qzrrs8OUjUFw3RVJEaK/nu8A2SRZpjxVXBkQtabsxKlLX2Cw==" length="16895151"/>
     </item>
   </channel>
 </rss>
