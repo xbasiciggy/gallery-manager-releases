@@ -3,14 +3,17 @@
   <channel>
     <title>Gallery Manager</title>
     <item>
-      <title>Version 1.3.90</title>
-      <pubDate>Mon, 16 Nov 2026 19:19:39 +0000</pubDate>
-      <sparkle:version>170</sparkle:version>
-      <sparkle:shortVersionString>1.3.90</sparkle:shortVersionString>
+      <title>Version 1.3.91</title>
+      <pubDate>Mon, 16 Nov 2026 19:33:25 +0000</pubDate>
+      <sparkle:version>171</sparkle:version>
+      <sparkle:shortVersionString>1.3.91</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<pre style="font-family:-apple-system;white-space:pre-wrap">
-- Fixed lightbox photos being cut off at the top and bottom in short or wide windows. The photo element could grow taller than its box and get clipped; it now always fills its box and uses object-fit: contain, so the whole image shows until you zoom. Ships in the shared theme stylesheet, so every existing gallery is fixed on the next publish without rebuilding pages.</pre>]]></description>
-      <enclosure url="https://github.com/xbasiciggy/gallery-manager-releases/releases/download/v1.3.90/GalleryManager-1.3.90.zip" type="application/octet-stream" sparkle:edSignature="H4R6QR+uOKrDwhBa7BJseVr0cpkJ0yVyulGAcHQzpnemqOO+lJYGg9tei7P81fc6dERPw8pHnwA/TEcr58UOAQ==" length="16895383"/>
+- The photo-driven accent color now tints the whole app: sidebar selection and glow, logo tile, background glow, Publish Site button and progress indicators.
+- Sidebar buttons spring and highlight on hover (icons swell, labels slide), in rounded type with monospace section labels.
+- New ⌘K command palette: type to jump to any section, save to website, or check for updates. Plain navigation is listed first so Return never triggers an action by accident.
+- Home action tiles fit on one row at smaller window sizes.</pre>]]></description>
+      <enclosure url="https://github.com/xbasiciggy/gallery-manager-releases/releases/download/v1.3.91/GalleryManager-1.3.91.zip" type="application/octet-stream" sparkle:edSignature="/xkcS/o8HPLYtJn21df+8OCng/Zny/iv3sIb7fDMtL3FoikS8vcf49C7FaxCv06EGxqbbjBbR3EO0LqOHWUQAw==" length="16943085"/>
     </item>
   </channel>
 </rss>
