@@ -3,16 +3,16 @@
   <channel>
     <title>Gallery Manager</title>
     <item>
-      <title>Version 1.3.95</title>
-      <pubDate>Mon, 16 Nov 2026 21:08:46 +0000</pubDate>
-      <sparkle:version>175</sparkle:version>
-      <sparkle:shortVersionString>1.3.95</sparkle:shortVersionString>
+      <title>Version 1.3.96</title>
+      <pubDate>Mon, 16 Nov 2026 21:16:09 +0000</pubDate>
+      <sparkle:version>176</sparkle:version>
+      <sparkle:shortVersionString>1.3.96</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<pre style="font-family:-apple-system;white-space:pre-wrap">
-- Fixed the Homepage tab not updating the site. Its Hero, Featured Adventure and Featured Lifestyle slots were saved to gallery-data/homepage.json, but nothing applied them to the home page, which is static HTML, so the hero stayed the old image. Save to Website / Publish now writes the slots into index.html: the hero image, and the Adventures and Lifestyle cards (image, name and badge).
-- Uses right-sized self-hosted copies of each gallery's cover photo (2200px for the hero, 1200px for cards) under /assets/media, resolved from the gallery's own exported cover. Safe to run repeatedly.
-- A hero chosen with Hero Images → Choose Image… is an explicit upload and still takes priority over the hero slot.</pre>]]></description>
-      <enclosure url="https://github.com/xbasiciggy/gallery-manager-releases/releases/download/v1.3.95/GalleryManager-1.3.95.zip" type="application/octet-stream" sparkle:edSignature="ptOUaKk6JwxIWfei0c2D4mPQCPK+9ZOPpdHRwje0qNtExzQ8GatyB6ot+WVADBi/3jiQ6bKIoMgNf7OBKTxCDA==" length="16994845"/>
+- Fixed content running off the right edge when the window is resized. The window background (a large "fill" photo) could be wider than the window and stretch the whole layout, cutting off the fifth action tile, the third column of cards and the right side of every screen. The background is now a non-layout .background clipped to the window.
+- Gallery cards size by aspect ratio instead of a fixed height, and their photos no longer set the column width, so columns stay even and reflow as the window changes.
+- Publish header stacks (title, then scrolling status pills, then buttons) in narrow windows, and the pills no longer wrap their text letter by letter.</pre>]]></description>
+      <enclosure url="https://github.com/xbasiciggy/gallery-manager-releases/releases/download/v1.3.96/GalleryManager-1.3.96.zip" type="application/octet-stream" sparkle:edSignature="IWi4OoOKYyPfzpJIe6W2MX5S1UCynxFtd56UEbydqwiYfwtK1Qpv7yrRJcg9yqeLEkt31srrYm5GnFXh0wxNAg==" length="16997970"/>
     </item>
   </channel>
 </rss>
