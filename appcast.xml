@@ -3,17 +3,15 @@
   <channel>
     <title>Gallery Manager</title>
     <item>
-      <title>Version 1.3.91</title>
-      <pubDate>Mon, 16 Nov 2026 19:33:25 +0000</pubDate>
-      <sparkle:version>171</sparkle:version>
-      <sparkle:shortVersionString>1.3.91</sparkle:shortVersionString>
+      <title>Version 1.3.92</title>
+      <pubDate>Mon, 16 Nov 2026 19:38:46 +0000</pubDate>
+      <sparkle:version>172</sparkle:version>
+      <sparkle:shortVersionString>1.3.92</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<pre style="font-family:-apple-system;white-space:pre-wrap">
-- The photo-driven accent color now tints the whole app: sidebar selection and glow, logo tile, background glow, Publish Site button and progress indicators.
-- Sidebar buttons spring and highlight on hover (icons swell, labels slide), in rounded type with monospace section labels.
-- New ⌘K command palette: type to jump to any section, save to website, or check for updates. Plain navigation is listed first so Return never triggers an action by accident.
-- Home action tiles fit on one row at smaller window sizes.</pre>]]></description>
-      <enclosure url="https://github.com/xbasiciggy/gallery-manager-releases/releases/download/v1.3.91/GalleryManager-1.3.91.zip" type="application/octet-stream" sparkle:edSignature="/xkcS/o8HPLYtJn21df+8OCng/Zny/iv3sIb7fDMtL3FoikS8vcf49C7FaxCv06EGxqbbjBbR3EO0LqOHWUQAw==" length="16943085"/>
+- New neon-glass design system: frosted-glass keys with a bright top edge and soft shadow, dark inset wells they sit in, and a lit-tube neon rim (colored glow, tight bloom, hot white core) that pools around the bottom-left corner.
+- Applied across the app in the photo-driven accent color: the selected sidebar item, home action tiles (Publish is a bright glowing key), status chips, gallery cards (rim brightens and rotates on hover), the Publish Site / Save buttons and the ⌘K palette.</pre>]]></description>
+      <enclosure url="https://github.com/xbasiciggy/gallery-manager-releases/releases/download/v1.3.92/GalleryManager-1.3.92.zip" type="application/octet-stream" sparkle:edSignature="qCpK/iOINv6oOn2WcOE5Lwn0a2Tq1sIg4gysUSrZiiWrf1Os6CwknBREhSbvBNo2guq3KRa3p1qa1SfH5KdmAQ==" length="16959904"/>
     </item>
   </channel>
 </rss>
